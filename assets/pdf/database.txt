@@ -1,0 +1,71 @@
+HOME PAGE:
+	1) Photo Gallery
+		#) id, photo
+	2) Notice Board
+		#) id, title, details, uploaded By
+	3) Home Description
+		#) id, title, details, uploaded By
+News-&-Reports:
+	#) id, image, title, details, upload time, uploaded By
+
+Court-&-Court-Rule:
+	1) photos
+	2) 
+Laws: 
+	#) id, title, pdf-file, uploaded By
+
+Guidelines:
+	1) Rights in police Station
+		#) id, title, details
+	2) Appeal Procedure
+		#) id, title, details
+	3) Trial Procedure
+		#) id, title, details
+	4) Process of lawsuit
+		#) id, title, pdf-file
+	5) Court Fee
+		#) id, title, pdf-file
+	6) Suit Valuation
+		#) id, title, pdf-file
+
+Cases:
+	1) Civil Cases
+		#) As the table says
+	2) Criminal Cases
+		#) As the table says
+
+Judges:
+	#) id, Court, name, designations, phone
+Advocate:
+	#) id, Court, name, designations, phone
+
+
+Portal:
+	1) Advocate:
+		a) Profile : 
+			#) id, image, Full Name, Email, Password, Phone No, country map.
+		b) Forms : 
+			#) id, title, pdf-file
+		c) Document :
+			#) id, title, documents
+		d) Files Table :
+			#) All table content, Civil Cases, Criminal Cases
+		e) Case Results :
+			#) All table content, Civil Cases, Criminal Cases
+		f) Help Desk :
+			#) id, name, designation, portal ID, email Address, problem-title, problem explaination
+	2) Judge:
+		a) Profile :
+			#) id, image, Full Name, Email, Password, Phone No, country map.
+		b) Froms : 
+			#) Same as advocate.
+		c) document :
+			#) Same as advocate.
+		d) Files Table :
+			#) All table content, Civil Cases, Criminal Cases
+		e) Case Results :
+			#) All table content, Civil Cases, Criminal Cases
+		f) Help Desk :
+			#) id, name, designation, portal ID, email Address, problem-title, problem explaination
+Admin:
+	All the data table.
